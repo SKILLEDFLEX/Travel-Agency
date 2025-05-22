@@ -1,10 +1,71 @@
+body{
+  background: linear-gradient( #FF6F61, rgba(0, 128, 128, 0.8));
+  color: black;
+}
+
+
 figure {
   display: inline-block;
   margin: 10px;
+  position: relative;
   text-align: center;
+  
 }
 
 figcaption {
   font-size: 14px;
   margin-top: 5px;
+  
 }
+ .destination {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 1rem;
+  overflow: hidden;
+  display: inline-block;
+  font-family: sans-serif;
+  border-radius: 12px;
+  box-shadow: 8px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.destination img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+  text-align: center;
+  opacity: 0;
+}
+
+.overlay figcaption a {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.overlay:hover {
+  background: linear-gradient( #FF6F61, rgba(0, 128, 128, 0.8));
+  opacity: 1;
+  
+}
+ 
+   
+
+
+            
