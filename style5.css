@@ -1,0 +1,135 @@
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+} 
+ 
+body { 
+  font-family: 'Segoe UI', sans-serif; 
+  background-color: #f9f9f9; 
+  color: #333; 
+  line-height: 1.6; 
+  padding-top: 0%;
+} 
+ 
+header { 
+  background-color: #008cba; 
+  color: white; 
+  padding: 20px 0; 
+  text-align: center; 
+} 
+ 
+nav ul { 
+  list-style: none; 
+  display: flex; 
+  justify-content: center; 
+  margin-top: 10px; 
+  gap: 20px; 
+} 
+ 
+ 
+nav a { 
+  color: white; 
+  text-decoration: none; 
+  font-weight: bold; 
+} 
+ 
+.hero { 
+  background: url('https://source.unsplash.com/1600x600/?travel') no-repeat center center/cover; 
+  color: #333; 
+  text-align: center; 
+  padding: 15px 20px; 
+  
+} 
+ 
+.hero .btn { 
+  background-color: #ff6347; 
+  padding: 10px 20px; 
+  color: white; 
+  text-decoration: none; 
+  border-radius: 5px; 
+  display: inline-block; 
+  margin-top: 20px; 
+} 
+ 
+.hero-description { 
+  max-width: 600px; 
+  margin: 20px auto 0; 
+} 
+ 
+section { 
+  padding: 50px 20px; 
+  text-align: center; 
+} 
+ 
+.grid { 
+  display: flex; 
+  gap: 20px; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  margin-top: 30px; 
+} 
+ 
+.card { 
+  background: white; 
+  padding: 20px; 
+  width: 280px; 
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+  border-radius: 10px; 
+  text-align: left; 
+} 
+ 
+form { 
+  max-width: 400px; 
+  margin: auto; 
+  display: flex; 
+  flex-direction: column; 
+  gap: 10px; 
+} 
+ 
+ 
+form input, form textarea { 
+  padding: 10px; 
+  border-radius: 5px; 
+  border: 1px solid #ccc; 
+} 
+ 
+form button { 
+  background-color: #008cba; 
+  color: white; 
+  padding: 10px; 
+  border: none; 
+  border-radius: 5px; 
+} 
+ 
+footer { 
+  background-color: #222; 
+  color: white; 
+  text-align: center; 
+  padding: 20px; 
+} 
+.reasons { 
+list-style: none; 
+margin-top: 20px; 
+text-align: left; 
+max-width: 700px; 
+margin-left: auto; 
+margin-right: auto; 
+} 
+.reasons li { 
+margin-bottom: 10px; 
+}
+
+footer {
+
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+

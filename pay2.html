@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: url('images/BBB.jpg');
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+            
+        }
+    </style> 
+
+</head>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <button><li><a href="Home-page.html">Home</a></li></button>
+                <button><li><a href="Categories.html">categories</a></li></button>
+                <button><li><a href="Destination Guide.html">Destination Guides</a></li></button>
+                <button><li><a href="About Us.html">About</a></li></button>
+                <button><li><a href="BUS PAGE.html">Buses</a></li></button>
+            <button><li><a href="Flights.html">Flights</a></li></button>
+            <button><li><a href="My travel guide.html">Travel Guides</a></li></button>
+            <button><li><a href="Travel tips.html">Travel Tips</a></li></button>
+            </ul>
+        </nav>
+    </header>
+<body>
+    <center>
+    <section class="LOG"></section>
+        <h1>SAGA-BANTU PAYEMENT</h1>
+            <br>
+                <H2>Welcome to the SAGA-BANTU payment system. Please following below to complete your transaction.</H2>
+                <br>
+            </center>
+                    <h2>Payment Options</h2>
+                        <form cllass="login">
+                            <br>
+                            <label for="customer-name">Customer Name:</label>
+                            <input type="text" id="customer-name" name="customer-name" required placeholder="Enter your name">
+                            <br>
+                            <br>
+                            <label for="customer-email">Customer Email:</label>
+                            <input type="email" id="customer-email" name="customer-email" required placeholder="Enter your email">
+                            <br>
+                            <br>
+                            <label for="customer-phone">Customer Phone:</label>
+                            <input type="tel" id="customer-phone" name="customer-phone" required placeholder="Enter your phone number">
+                            <br>
+                            <br>
+                            <label for="customer-address">Customer Address:</label>
+                            <input type="text" id="customer-address" name="customer-address" required placeholder="Enter your address">
+                            <br>
+                            <br>
+                            <label for="payment-method">Select Payment Method:</label>
+                            <select id="payment-method" name="payment-method">
+                                <option value="credit-card">Credit Card</option>
+                                <option value="debit-card">Debit Card</option>
+                                <option value="paypal">PayPal</option>
+                                <option value="bank-transfer">Bank Transfer</option>
+                            </select>
+                            <br><br>
+                            <label for="card-number">Card Number:</label>
+                            <input type="text" id="card-number" name="card-number" required placeholder="1234 5678 9012 3456">
+                            <br>
+                            <br>
+                            <label for="expiry-date">Expiry Date:</label>
+                            <input type="month" id="expiry-date" name="expiry-date" required placeholder="MM/YYYY">
+                            <br>
+                            <br>
+                            <label for="cvv">CVV:</label>
+                            <input type="text" id="cvv" name="cvv" required placeholder="3-digit code">
+                            <br>
+                            <br>
+                            <label for="amount">Enter Amount:</label>
+                            <input type="number" id="amount" name="amount" required placeholder="Enter amount to pay" min="1" step="0.01">
+                            <br><br>
+
+                            <button type="submit"><a href="success.html">Pay now</a></button>
+                        </form>
+                    </section>
+</body>
+</html>

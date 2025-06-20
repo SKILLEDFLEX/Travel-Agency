@@ -1,0 +1,219 @@
+body{
+    margin:0;
+    font-family:"poppins","rubik" system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+   
+    background-image: url(images/6th.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150vh;
+    width: 100%;
+}
+
+#header{
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index: 500;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(10, 10, 10);
+    background-repeat:repeat-x;
+}
+#header img{
+    align-items: left;
+    display: block;
+    margin: auto;
+    height:70%;
+    padding-top: 15px;
+    
+}
+
+ .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fff;
+}
+
+
+.navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  top: 0; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  position: sticky;
+
+  }
+
+ 
+.navbar li{
+margin:0 1rem;
+}
+
+
+  .navbar a:hover {
+    color: #ffd700;
+    border-bottom: 2px solid #ffd700;
+        
+  }
+  
+  .navbar a{
+    font-size: 30px;
+    font-weight: 600;
+    color:#4e73df;
+    border-bottom: 2px solid transparent;
+    position: sticky;  
+
+  }
+
+.left-container{
+    padding-bottom: 150px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgb(252, 251, 251);
+    font-family:monospace;
+    position: relative;
+    top: -20px;
+}
+
+.left-content{
+    margin-top: 240px;
+}
+
+.left-content h1{
+    text-align: center;
+    color: rgb(243, 238, 238);
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 1.1;
+    margin-top:200px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    padding-bottom: 80px;
+}  
+    
+/* Section Headings */
+section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #333;
+  border-bottom: 3px solid #1489f7;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+
+/* Layout Containers */
+.destinations,
+.benefits,
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Card Styling */
+.card {
+  background: linear-gradient(135deg, #1647e6c4, #e46161);
+  border-left: 6px solid #0d68df;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  color: #333;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(235, 225, 225, 0.2);
+}
+
+/* Newsletter Section */
+.newsletter {
+  text-align: center;
+  background: linear-gradient(145deg, #dff0ff, #e0ffe8);
+  padding: 60px 20px;
+  color: #222;
+}
+
+.newsletter h2 {
+  color: #0077b6;
+  margin-bottom: 1rem;
+}
+
+.newsletter p {
+  margin-bottom: 1rem;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  width: 250px;
+  max-width: 80%;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background: #00b894;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.newsletter button:hover {
+  background: #019174;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(to right, #222, #333);
+  color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .destinations,
+  .benefits,
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    max-width: none;
+  }
+
+  .newsletter input[type="email"],
+  .newsletter button {
+    width: 90%;
+    margin: 0.5rem 0;
+  }
+
+  .newsletter button {
+    margin-left: 0;
+  }
+}
+
+
+
+

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Travel Tips</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #fdfaf6;
+      color: #333;
+    }
+
+    nav {
+      background: skyblue;
+      padding: 10px 0;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 6px 10px;
+      border-radius: 4px;
+    }
+
+    nav a:hover {
+      background:skyblueS;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1500&q=80') no-repeat center;
+      background-size: cover;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 42px;
+    }
+
+    .quote {
+      text-align: center;
+      font-style: italic;
+      margin: 30px 20px 0;
+      color: #444;
+    }
+
+    .tips-section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .tip-card {
+      background: #fff;
+      border-left: 6px solid skyblue;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      border-radius: 8px;
+      transition: 0.2s ease;
+    }
+
+    .tip-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+
+    .tip-card h3 {
+      margin-top: 0;
+      color: skyblue;
+    }
+
+    .tip-card p {
+      margin-bottom: 0;
+    }
+
+    footer {
+      background: skyblue;
+      text-align: center;
+      padding: 15px;
+      margin-top: 50px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 32px;
+      }
+
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="Home-page.html">Home</a></li>
+  <a href="Categories.html">Categories</a>
+  <a href="Destination Guide.html"> Destination Guides</a>
+  <a href="Destinations.html">Destinations</a>
+  <a href="BUS PAGE.html">Buses</a>
+  <a href="About Us.html">About</a>
+  <a href="Flights.html">Flights</a>
+  <a href="Hotels.html">hotels</a>
+</nav>
+
+<header>
+  <h1>SANGA-BANTU Travel Tips</h1>
+</header>
+
+<p class="quote">“Travel makes one modest — you see what a tiny place you occupy in the world.”</p>
+
+<div class="tips-section">
+  <div class="tip-card">
+    <h3>🧳 Pack Light & Smart</h3>
+    <p>Choose versatile clothing and avoid overpacking. Bring essentials and leave space for souvenirs.</p>
+  </div>
+
+  <div class="tip-card">
+    <h3>💧 Stay Hydrated</h3>
+    <p>Always carry a refillable water bottle, especially when sightseeing or flying long distances.</p>
+  </div>
+
+  <div class="tip-card">
+    <h3>🛂 Secure Your Documents</h3>
+    <p>Keep copies of your passport, tickets, and ID in your email or cloud just in case.</p>
+  </div>
+
+  <div class="tip-card">
+    <h3>🗣️ Learn Basic Local Phrases</h3>
+    <p>A few words in the local language can go a long way in showing respect and getting help.</p>
+  </div>
+
+  <div class="tip-card">
+    <h3>🛡️ Buy Travel Insurance</h3>
+    <p>Get insurance to cover medical issues, cancellations, or lost luggage.</p>
+  </div>
+
+  <div class="tip-card">
+    <h3>🛬 Check Entry Requirements</h3>
+    <p>Ensure you meet visa and vaccination rules for each destination.</p>
+  </div>
+</div>
+
+<footer>
+  &copy; 2025 SANGA-BANTU | Travel Bright, Travel Light ✈️
+</footer>
+
+</body>
+</html>
